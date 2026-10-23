@@ -1,0 +1,55 @@
+/* 0,0,1 */
+p {
+  background-color: blueviolet;
+}
+
+/* 0,0,1 */
+a {
+  text-decoration: line-through;
+}
+
+/* 0,0,1 */
+a {
+  text-decoration: none;
+}
+
+/* 0,0,2 */
+nav a {
+  text-decoration: none;
+}
+
+h1 + p {
+  margin-block-start: 0;
+}
+
+h1 ~ p {
+  color: yellow;
+}
+
+nav > ul > li {
+  list-style-type: circle;
+}
+
+article p {
+  font-style: italic;
+}
+
+/* 0,0,1 */
+.nav-links {
+  text-decoration: none;
+}
+
+/* 0, 1, 3 */
+/* nav ul:first-of-type a {
+        text-decoration: none;
+      } */
+
+/* 0,1,1 */
+p.my-class {
+  background-color: chocolate;
+}
+
+/* 1,0,0 */
+#my-heading {
+  color: red;
+}
