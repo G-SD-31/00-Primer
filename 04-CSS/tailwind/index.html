@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kaffeepause</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-primary: #152166;
+        --color-secondary: white;
+      }
+
+      @layer components {
+        .card {
+          @apply bg-sky-200 p-2 m-2 rounded-md;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="max-w-2xl mx-auto">
+      <h1 class="text-3xl text-primary p-2 font-bold">Kaffeepause</h1>
+      <p>Such dir deinen Kaffee aus.</p>
+      <div class="sm:flex">
+        <article class="card">
+          <h2 class="font-bold text-xl">Espresso</h2>
+          <p class="text-sm">Klein, kräftig und frisch zubereitet.</p>
+          <a class="text-xs text-violet-800 hover:underline" href="#kontakt"
+            >Zum Kontakt</a
+          >
+        </article>
+        <article class="card">
+          <h2 class="font-bold text-xl">Cappuccino</h2>
+          <p class="text-sm">Espresso mit Milch und feinem Milchschaum.</p>
+          <a class="text-xs text-violet-800 hover:underline" href="#kontakt"
+            >Zum Kontakt</a
+          >
+        </article>
+      </div>
+      <p class="bg-primary text-secondary p-[25px]" id="kontakt">
+        Bestellt euren Kaffee direkt an der Theke.
+      </p>
+    </main>
+  </body>
+</html>
